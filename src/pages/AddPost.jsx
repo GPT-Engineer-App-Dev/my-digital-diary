@@ -15,7 +15,7 @@ const AddPost = ({ addPost }) => {
   };
 
   return (
-    <Container centerContent maxW="container.md" py={10}>
+    <Container centerContent maxW="container.md" py={10} bg={useColorModeValue("white", "gray.800")} borderRadius="md" boxShadow="lg">
       <VStack spacing={8} as="form" onSubmit={handleSubmit}>
         <Heading as="h1" size="2xl">Add New Blog Post</Heading>
         <FormControl id="title" isRequired>

@@ -1,8 +1,8 @@
-import { Container, Text, VStack, Heading, Box, Image, Link, SimpleGrid } from "@chakra-ui/react";
+import { Container, Text, VStack, Heading, Box, Image, Link, SimpleGrid, useColorModeValue } from "@chakra-ui/react";
 
 const Index = ({ posts }) => {
   return (
-    <Container centerContent maxW="container.md" py={10}>
+    <Container centerContent maxW="container.md" py={10} bg={useColorModeValue("white", "gray.800")} borderRadius="md" boxShadow="lg">
       <VStack spacing={8}>
         <Heading as="h1" size="2xl">Welcome to My Personal Blog</Heading>
         <Box boxSize="sm">
