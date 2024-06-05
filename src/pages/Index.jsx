@@ -1,4 +1,4 @@
-import { Container, Text, VStack, Heading, Box, Image, Link, SimpleGrid } from "@chakra-ui/react";
+import { Container, Text, VStack, Heading, Box, Image, Link, SimpleGrid, useColorModeValue } from "@chakra-ui/react";
 
 const Index = ({ posts }) => {
   return (
